@@ -4,7 +4,7 @@
 
 > _[React - facebook.github.io/react](http://facebook.github.io/react)_
 
-The original version of this example can be found [here](https://github.com/tastejs/todomvc/tree/master/examples/react).
+See TodoMVC project [here](http://todomvc.com/)
 
 ## Prerequisites
 
@@ -23,3 +23,8 @@ Download the Node installer [here](https://nodejs.org/dist/v5.4.0/node-v5.4.0-x6
 
 * Run `npm run start`, which starts a local development environment. Open chrome and go to [`http://localhost:3000`](http://localhost:3000)
  * Use `ctrl + c` to stop the server
+
+## Resources
+
+* React life cycle: http://imgh.us/react-lifecycle.svg
+* Front-end technologies to look at: https://www.mindmeister.com/646093554
