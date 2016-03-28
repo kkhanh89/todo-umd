@@ -1,5 +1,4 @@
 import React from 'react';
-import { Router } from 'director';
 import TodoFooter from './TodoFooter.jsx';
 import TodoItem from './TodoItem.jsx';
 import TodoModel from './TodoModel.js';
@@ -18,15 +17,6 @@ const TodoApp = React.createClass({
       editing: null,
       newTodo: ''
     };
-  },
-
-  componentDidMount: function () {
-    var router = Router({
-      '/': () => this.setState({nowShowing: ALL_TODOS}),
-      '/active': () => this.setState({nowShowing: ACTIVE_TODOS}),
-      '/completed': () => this.setState({nowShowing: COMPLETED_TODOS})
-    });
-    router.init('/');
   },
 
   handleChange: function (event) {

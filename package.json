@@ -2,7 +2,6 @@
   "private": true,
   "dependencies": {
     "classnames": "^2.2.3",
-    "director": "^1.2.8",
     "react": "^0.14.7",
     "react-dom": "^0.14.7"
   },
