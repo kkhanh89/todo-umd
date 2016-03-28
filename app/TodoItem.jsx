@@ -11,8 +11,6 @@ const TodoItem = React.createClass({
     if (val) {
       this.props.onSave(val);
       this.setState({editText: val});
-    } else {
-      this.props.onDestroy();
     }
   },
 
@@ -98,7 +96,6 @@ const TodoItem = React.createClass({
             [style.edit]: editing
           })}
           value={this.state.editText}
-          onBlur={this.handleSubmit}
           onChange={this.handleChange}
           onKeyDown={this.handleKeyDown}
         />
